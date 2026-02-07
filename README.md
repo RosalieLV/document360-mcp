@@ -1,6 +1,6 @@
 # Document360 MCP Server
-A very simple Model Context Protocol (MCP) server for accessing Document360 knowledge base content via GET operations. Built with [FastMCP](https://gofastmcp.com/).
-This MCP is intended to be the bare minimun required to be able to find and read pages in Document360's knowledge base.
+
+Model Context Protocol server for Document360 that enables AI assistants to search, retrieve, and interact with your knowledge base. Built with [FastMCP](https://gofastmcp.com/), this server provides seamless access to Document360 articles, categories, and project versions through a standardized MCP interface.
 
 <a href="https://glama.ai/mcp/servers/@druellan/document360-mcp">
   <img width="380" height="200" src="https://glama.ai/mcp/servers/@druellan/document360-mcp/badge" alt="Document360 MCP server" />
@@ -14,7 +14,7 @@ This MCP is intended to be the bare minimun required to be able to find and read
 - List Project Versions
 
 ## Requirements
-- Python 3.8+
+- Python 3.12+
 - Document360 API key
 
 ## Installation
