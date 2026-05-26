@@ -31,9 +31,7 @@ Use this server to access Document360 projects, categories and articles. Search 
     """,
     lifespan=lifespan,
     # include_tags={"document360", "api"},
-    on_duplicate_tools="warn",
-    on_duplicate_resources="warn", 
-    on_duplicate_prompts="warn"
+    on_duplicate="warn"
 )
 
 @mcp.tool
